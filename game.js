@@ -30,7 +30,7 @@ function send() {
 
     question_number = "<h4>" + number1 + " X "+ number2 +"</h4>";
 
-    input_box = "<br>Answer : <input type='text' id='input_check_box'>";
+    input_box = "<br>Answer : <input type='number' id='input_check_box'>";
 
     check_button = "<br><br><button class='btn btn-info' onclick='Check()'>Check</button>";
 
